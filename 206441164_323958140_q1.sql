@@ -30,4 +30,9 @@ CREATE TABLE Guide(
         FOREIGN KEY (gFavouriteCountry) REFERENCES Countries(cName)
 )
 
--- we cant fuckin make the last relation
+--last paragraph
+-- For each trip there are different collections of attractions that a trip can have,
+-- thus fitting all these attractions for each trip is impossible with our current tools
+-- due to lack of limitation on the number of days for a trip
+
+
